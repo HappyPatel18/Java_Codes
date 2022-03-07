@@ -1,0 +1,12 @@
+package com.Myproject;
+import com.Myproject.AccessMod;
+
+public class TestAccessMod extends AccessMod{
+
+
+    public static void main(String[] args) {
+        AccessMod obj=new AccessMod();
+      obj.printProperties();
+    }
+
+}
